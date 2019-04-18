@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工坊-登入</title>
+    <link rel="shortcut icon" href="images/favicon_48.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white py-5 py-md-6">
+        <div class="container">
+            <button class="navbar-toggler border-0 py-3" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon navbar-toggler-icon-sm"></span>
+            </button>
+            <a class="navbar-brand d-md-none mr-0" href="index.html">
+                <h1 class="hide-title" style="background-image: url(images/logotype-lg-dark.svg)">六角甜點工坊</h1>
+            </a>
+            <a class="navbar-brand d-none d-md-block py-0" href="index.html">
+                <img src="images/logo-all-dark.svg" width="220" height="40" alt="Sweetaste">
+            </a>
+            <a class="nav-link font-weight-bold text-primary p-0 mt-2 order-md-2" href="cart.html"><i
+                    class="material-icons">shopping_cart</i></a>
+            <div class="collapse navbar-collapse order-md-1" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold text-primary px-0 mr-8" href="index.html">首頁 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-primary px-0 mr-8" href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-primary px-0 mr-9" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Login-->
+    <section class="container mt-md-6 mb-md-8">
+        <div class="mx-n3 mx-md-0">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-md-5">
+                    <div class="bg-primary pt-7 pb-5 pb-md-0 px-6">
+                        <h2 class="text-center text-light mb-0">會員登入</h2>
+                    </div>
+                    <div class="row no-gutters d-md-none bg-light align-items-stretch p-6">
+                        <div class="col-4">
+                            <button type="button" class="btn btn-white btn-lg btn-block h-100 border-right">
+                                <img src="images/ic-facebook-logotype.svg">
+                            </button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-white btn-lg btn-block h-100 border-right">
+                                <img src="images/ic-google.svg">
+                            </button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-white btn-lg btn-block h-100">
+                                <img src="images/ic-yahoo.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-primary pt-7 pb-5 px-6">
+                        <form>
+                            <div class="mb-4 position-relative">
+                                <label for="username" class="material-icons text-primary position-absolute"
+                                    style="top: 16px; left: 20px;">person</label>
+                                <input type="text" class="form-control form-control-custom pl-8" id="username" placeholder="電子信箱/手機號碼">
+                            </div>
+                            <div class="mb-4 position-relative">
+                                <label for="password" class="material-icons text-primary position-absolute"
+                                    style="top: 16px; left: 20px;">vpn_key</label>
+                                <input type="password" class="form-control form-control-custom pl-8" id="password" placeholder="請輸入使用者密碼">
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="rememberme">
+                                <label class="custom-control-label text-light" for="rememberme">記住我</label>
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" class="btn btn-warning btn-lg btn-block btn-font text-primary">
+                        登入帳號
+                    </a>
+                </div>
+                <div class="col-md-5 py-4 d-none d-md-block">
+                    <div class="bg-light px-6 py-7 text-center">
+                        <h3 class="text-secondary d-lg-none mb-7">—連結社群帳號—</h3>
+                        <h3 class="text-secondary d-none d-lg-block mb-7">—— 連結社群帳號 ——</h3>
+                        <button type="button" class="btn btn-white btn-lg btn-block">
+                            <img src="images/ic-facebook-logotype.svg" width="108" alt="facebook">
+                        </button>
+                        <button type="button" class="btn btn-white btn-lg btn-block mt-4">
+                            <img src="images/ic-google.svg" width="94" alt="google">
+                        </button>
+                        <button type="button" class="btn btn-white btn-lg btn-block mt-4">
+                            <img src="images/ic-yahoo.svg" width="97" alt="yahoo">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Subscribe-->
+    <section class="bg-primary py-6 px-5 px-md-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-5 mb-6 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="images/logo-light.svg" width="40" alt="Sweetaste">
+                        <span class="text-light h4 ml-5 mb-0">訂閱你我的甜蜜郵件</span>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="d-flex position-relative ">
+                        <label for="subscribe" class="material-icons text-primary position-absolute"
+                            style="top: 16px; left: 20px;">email</label>
+                        <input type="email" class="form-control form-control-custom pl-8" id="subscribe">
+                        <button class="btn btn-warning px-5 py-0"><i class="material-icons">arrow_forward</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-light pt-7 pb-6 px-5 px-md-3 text-primary">
+        <div class="container">
+            <div class="row justify-content-center mb-6">
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <div class="mb-7 mb-md-0">
+                        <a href="#">
+                            <img src="images/logotype-lg-dark.svg" width="174">
+                        </a>
+                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <div class="text-right d-none d-md-block">
+                        <img src="images/goodDay-sm.svg" width="60" height="220" alt="今天是個吃甜點的好日子">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-end">
+                <div class="col-md-5 mb-5 mb-md-0">
+                    <img src="images/ic-line@.svg" width="32" alt="line@">
+                    <img src="images/ic-facebook.svg" width="32" alt="facebook">
+                </div>
+                <div class="col-md-5 text-md-right">
+                    <p class="mb-0">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    
+</body>
+</html>

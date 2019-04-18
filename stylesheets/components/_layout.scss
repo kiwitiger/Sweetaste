@@ -1,0 +1,43 @@
+.navbar-toggler-icon-sm {
+    width: 1.125em;
+    height: 1.125em;
+}
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+.hide-title {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 115px;
+    height: 18px;
+    margin-bottom: 0;
+}
+.header {
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    @include media-breakpoint-up(md) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .header-img {
+        height: 277px;
+        @include media-breakpoint-up(md) {
+            height: 496px;
+        }
+    }
+    .header-img-checkout {
+        height: 518px;
+        @include media-breakpoint-up(md) {
+            height: 460px;
+        }
+    }
+}
+a.btn-font {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 63px;
+    padding: 0;
+}

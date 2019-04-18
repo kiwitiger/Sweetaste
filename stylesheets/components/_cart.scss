@@ -1,0 +1,23 @@
+.cart-img {
+    height: 110px;
+    min-width: 110px;
+}
+.cart-input {
+    height: 48px;
+    width: 144px;
+}
+.cart-checkout {
+    color: $primary;
+    h2 {
+        background-color: $light;
+    }
+    @include media-breakpoint-up(md) {
+        background-color: $primary;
+        color: $light;
+        h2 {
+            color: $light;
+            background-color: $primary;
+            border-bottom: 1px solid $light;
+        }
+    }
+}
